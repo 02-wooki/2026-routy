@@ -18,7 +18,7 @@ export const parsePhotos = async (files: File[]): Promise<ParsedPhoto[]> => {
       // EXIF 데이터 추출 (GPS 및 날짜)
       const data = await exifr.parse(file, {
         gps: true,
-        timestamp: true,
+        tiff: true,
       });
 
       if (!data || !data.latitude || !data.longitude) {

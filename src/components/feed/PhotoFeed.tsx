@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useRouteStore } from '../../store/useRouteStore';
-import type { RoutePoint } from '../../store/useRouteStore';
 import { parsePhotos } from '../../utils/exifParser';
 import { ImagePlus, MapPin } from 'lucide-react';
 
@@ -61,7 +60,7 @@ const PhotoFeed: React.FC = () => {
                 }
               }}
             >
-              {points.map((point, index) => (
+              {points.map((point) => (
                 <div 
                   key={point.id}
                   className="min-w-[85%] aspect-[4/5] snap-center relative"

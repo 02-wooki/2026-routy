@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChevronLeft, Share2, MapPin, MoreHorizontal, Heart, MessageCircle } from 'lucide-react';
-import { MOCK_ROUTES, type MockRoute } from '../api/mockData';
+import { ChevronLeft, Share2, MapPin, Heart, MessageCircle } from 'lucide-react';
+import { MOCK_ROUTES } from '../api/mockData';
 import RouteMap from '../components/map/RouteMap';
 import { useSocialStore } from '../store/useSocialStore';
 
