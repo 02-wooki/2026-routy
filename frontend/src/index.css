@@ -2,6 +2,51 @@
 
 @theme {
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+  /* Primary (Pink) */
+  --color-p50: #ffedf5;
+  --color-p100: #ffdbeb;
+  --color-p200: #ffc9e1;
+  --color-p300: #ffb8d7;
+  --color-p400: #ffa6cc;
+  --color-p500: #ff92c2;
+  --color-p600: #ff519c;
+  --color-p700: #ff0e76;
+  --color-p800: #c90057;
+  --color-p900: #86003a;
+  --color-p950: #43001d;
+
+  /* Secondary (Blue) */
+  --color-s50: #d9e2ff;
+  --color-s100: #b3c6ff;
+  --color-s200: #8ca9ff;
+  --color-s300: #668cff;
+  --color-s400: #4070ff;
+  --color-s500: #1a53ff;
+  --color-s600: #003aea;
+  --color-s700: #002fbb;
+  --color-s800: #00238c;
+  --color-s900: #00175e;
+  --color-s950: #000c2f;
+
+  /* Monochrome */
+  --color-m50: #e4e3e3;
+  --color-m100: #c8c7c8;
+  --color-m200: #adabac;
+  --color-m300: #928f91;
+  --color-m400: #767475;
+  --color-m500: #595758;
+  --color-m600: #4b4a4a;
+  --color-m700: #3c3b3b;
+  --color-m800: #2d2d2d;
+  --color-m900: #1e1d1e;
+  --color-m950: #0f0f0f;
+
+  /* Semantic */
+  --color-danger: #eb003b;
+  --color-warning: #ffb724;
+  --color-success: #008a1e;
+  --color-info: #2768ff;
 }
 
 :root {
@@ -19,6 +64,7 @@ body {
 @utility no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
